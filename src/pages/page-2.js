@@ -3,12 +3,16 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import LMFAO from "../images/lmfao.jpeg"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <h1>OH HEY SEXY PUDS</h1>
+    <p>SEE THIS HOT PIC!!</p>
+    <div>
+      <img src={require("../images/lmfao.jpeg")} />
+    </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
